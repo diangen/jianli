@@ -1,0 +1,25 @@
+.img-left {
+  width: 90%;
+  height: 90%;
+}
+.ul-header{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.clearfix:after,
+clearfix:before{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear:both;}
+
+.float-sm-left {
+  float: left;
+  padding: 0 15px ;
+}
+.ul-header img{
+  width: 35px;
+  margin-right: 15px;
+}
